@@ -10,6 +10,9 @@ import ProductScreen from './src/components/ProductScreen';
 import LoginScreen from './src/components/LoginScreen';
 import RegisterScreen from './src/components/RegisterScreen';
 import DashboardScreen from './src/components/DashboardScreen';
+import Vista1 from './src/components/Vista1';
+import Vista2 from './src/components/Vista2';
+import Vista3 from './src/components/Vista3';
 
 const Drawer = createDrawerNavigator();
 
@@ -24,6 +27,9 @@ export default function App() {
         <Drawer.Screen name="Login" component={LoginScreen} />
         <Drawer.Screen name="Registrarse" component={RegisterScreen} />
         <Drawer.Screen name="Dashboard" component={DashboardScreen} />
+        <Drawer.Screen name="Vista1" component={Vista1} />
+        <Drawer.Screen name="Vista2" component={Vista2} />
+        <Drawer.Screen name="Vista3" component={Vista3} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

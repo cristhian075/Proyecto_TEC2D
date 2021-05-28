@@ -14,17 +14,16 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/*"
     ],
+    "android":{
+       "package": "com.fet2.Prueba2",
+       "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
+  
     "web": {
       "favicon": "./assets/favicon.png"
     }
